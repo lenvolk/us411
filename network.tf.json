@@ -1,0 +1,23 @@
+{
+    "variable": [
+        {
+            "vnet_cidr_range": {
+                "type": "map",
+                "description": "CIDRS blocks per environment",
+                "default": {
+                "Development": "10.0.0.0/16",
+                "UAT"        : "10.1.0.0/16",
+                "Production" : "10.2.0.0/16"
+                }
+            }
+        }
+    ],
+    "output": [
+        {
+            "vnet_cidr_range":
+              { 
+                "value": "${lookup(var.vnet_cidr_range, var.env)}"
+              }
+        }
+    ]
+}
