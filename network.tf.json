@@ -19,7 +19,7 @@
         {
             "vnet_cidr_range":
               { 
-                "value": "${var.vnet_cidr_range [format(\"%s-%s\", var.env, var.vnet_name)]}"
+                "value": "${var.vnet_cidr_range [format(\"%s-%s\", var.env, var.vnet_type)]}"
               }
         }
     ]
