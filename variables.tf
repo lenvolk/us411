@@ -1,5 +1,5 @@
 
 variable "env"          { default = "Development" }
 
-variable "net_topology"    { default = "unset" }
+variable "vnet_type"    { default = "unset" }
 
