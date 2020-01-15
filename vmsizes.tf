@@ -39,11 +39,11 @@
         {
             "vm_win_sizes":
               { 
-                "value": "${var.vm_win_sizes [format(\"%s-%s-%s-%s\", var.env, var.os, var.type, var.region)]}"
+                "value": "${var.vm_win_sizes [format(\"%s-%s-%s-%s\", var.env, var.os, var.vm_type, var.region)]}"
               },
              "vm_lin_sizes":
               { 
-                "value": "${var.vm_lin_sizes [format(\"%s-%s-%s-%s\", var.env, var.os, var.type, var.region)]}"
+                "value": "${var.vm_lin_sizes [format(\"%s-%s-%s-%s\", var.env, var.os, var.vm_type, var.region)]}"
               }
         }
     ]
