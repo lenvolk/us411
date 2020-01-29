@@ -1,7 +1,7 @@
 variable "env"          { default = "Development" }
 
-variable "vnet_type"    { default = "main" }
-variable "os"           { default = "win" }
-variable "vm_type"      { default = "web" }
-variable "region"       { default = "eastus" }
+variable "vnet_type"    { default = null }
+variable "os"           { default = null }
+variable "vm_type"      { default = null }
+variable "region"       { default = null }
 
