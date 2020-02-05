@@ -25,18 +25,18 @@
                 "type": "map",
                 "description": "linux vms sku per resion",
                 "default": {
-                "development-win-web-eastus"      : "Standard_F2s",
-                "development-win-app-eastus"      : "Standard_F2s",
-                "development-win-db-eastus"       : "Standard_F2s",
-                "dev-win-web-eastus"              : "Standard_F2s",
-                "dev-win-app-eastus"              : "Standard_F2s",
-                "dev-win-db-eastus"               : "Standard_F2s",
-                "uat-win-web-eastus"              : "Standard_DS3_v2",
-                "uat-win-app-eastus"              : "Standard_DS3_v2",
-                "uat-win-db-eastus"               : "Standard_DS3_v2",
-                "production-win-web-eastus"       : "Standard_DS14_v2",
-                "production-win-app-eastus"       : "Standard_DS14_v2",
-                "production-win-db-eastus"        : "Standard_DS14_v2"
+                "development-lin-web-eastus"      : "Standard_F2s",
+                "development-lin-app-eastus"      : "Standard_F2s",
+                "development-lin-db-eastus"       : "Standard_F2s",
+                "dev-lin-web-eastus"              : "Standard_F2s",
+                "dev-lin-app-eastus"              : "Standard_F2s",
+                "dev-lin-db-eastus"               : "Standard_F2s",
+                "uat-lin-web-eastus"              : "Standard_DS3_v2",
+                "uat-lin-app-eastus"              : "Standard_DS3_v2",
+                "uat-lin-db-eastus"               : "Standard_DS3_v2",
+                "production-lin-web-eastus"       : "Standard_DS14_v2",
+                "production-lin-app-eastus"       : "Standard_DS14_v2",
+                "production-lin-db-eastus"        : "Standard_DS14_v2"
                 }
             }
         }
