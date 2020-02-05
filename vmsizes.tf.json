@@ -5,15 +5,18 @@
                 "type": "map",
                 "description": "windows vms sku per resion",
                 "default": {
-                "Development-win-web-eastus"      : "Standard_F2s",
-                "Development-win-app-eastus"      : "Standard_F2s",
-                "Development-win-db-eastus"       : "Standard_F2s",
-                "Uat-win-web-eastus"              : "Standard_DS3_v2",
-                "Uat-win-app-eastus"              : "Standard_DS3_v2",
-                "Uat-win-db-eastus"               : "Standard_DS3_v2",
-                "Production-win-web-eastus"       : "Standard_DS14_v2",
-                "Production-win-app-eastus"       : "Standard_DS14_v2",
-                "Production-win-db-eastus"        : "Standard_DS14_v2"
+                "development-win-web-eastus"      : "Standard_F2s",
+                "development-win-app-eastus"      : "Standard_F2s",
+                "development-win-db-eastus"       : "Standard_F2s",
+                "dev-win-web-eastus"              : "Standard_F2s",
+                "dev-win-app-eastus"              : "Standard_F2s",
+                "dev-win-db-eastus"               : "Standard_F2s",
+                "uat-win-web-eastus"              : "Standard_DS3_v2",
+                "uat-win-app-eastus"              : "Standard_DS3_v2",
+                "uat-win-db-eastus"               : "Standard_DS3_v2",
+                "production-win-web-eastus"       : "Standard_DS14_v2",
+                "production-win-app-eastus"       : "Standard_DS14_v2",
+                "production-win-db-eastus"        : "Standard_DS14_v2"
                 }
             }
         },
@@ -22,15 +25,18 @@
                 "type": "map",
                 "description": "linux vms sku per resion",
                 "default": {
-                "Development-win-web-eastus"      : "Standard_F2s",
-                "Development-win-app-eastus"      : "Standard_F2s",
-                "Development-win-db-eastus"       : "Standard_F2s",
-                "Uat-win-web-eastus"              : "Standard_DS3_v2",
-                "Uat-win-app-eastus"              : "Standard_DS3_v2",
-                "Uat-win-db-eastus"               : "Standard_DS3_v2",
-                "Production-win-web-eastus"       : "Standard_DS14_v2",
-                "Production-win-app-eastus"       : "Standard_DS14_v2",
-                "Production-win-db-eastus"        : "Standard_DS14_v2"
+                "development-win-web-eastus"      : "Standard_F2s",
+                "development-win-app-eastus"      : "Standard_F2s",
+                "development-win-db-eastus"       : "Standard_F2s",
+                "dev-win-web-eastus"              : "Standard_F2s",
+                "dev-win-app-eastus"              : "Standard_F2s",
+                "dev-win-db-eastus"               : "Standard_F2s",
+                "uat-win-web-eastus"              : "Standard_DS3_v2",
+                "uat-win-app-eastus"              : "Standard_DS3_v2",
+                "uat-win-db-eastus"               : "Standard_DS3_v2",
+                "production-win-web-eastus"       : "Standard_DS14_v2",
+                "production-win-app-eastus"       : "Standard_DS14_v2",
+                "production-win-db-eastus"        : "Standard_DS14_v2"
                 }
             }
         }
