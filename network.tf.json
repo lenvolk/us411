@@ -5,14 +5,14 @@
                 "type": "map",
                 "description": "CIDRS blocks per environment",
                 "default": {
-                "Development-main"     : "10.0.0.0/16",
-                "Development-sec"      : "10.1.0.0/16",
+                "development-main"     : "10.0.0.0/16",
+                "development-sec"      : "10.1.0.0/16",
                 "dev-main"             : "10.0.0.0/16",
                 "dev-sec"              : "10.1.0.0/16",
-                "Uat-main"             : "10.2.0.0/16",
-                "Uat-sec"              : "10.3.0.0/16",
-                "Production-main"      : "10.4.0.0/16",
-                "Production-sec"       : "10.4.0.0/16"
+                "uat-main"             : "10.2.0.0/16",
+                "uat-sec"              : "10.3.0.0/16",
+                "production-main"      : "10.4.0.0/16",
+                "production-sec"       : "10.4.0.0/16"
                 }
             }
         }
