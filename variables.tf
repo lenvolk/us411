@@ -1,7 +1,7 @@
-variable "env"          { type = string default = "Development" }
+variable "env"          { string default = null }
 
-variable "vnet_type"    { type = string default = null }
-variable "os"           { type = string default = null }
-variable "vm_type"      { type = string default = null }
-variable "region"       { type = string default = null }
+variable "vnet_type"    { default = null }
+variable "os"           { default = null }
+variable "vm_type"      { default = null }
+variable "region"       { default = null }
 
