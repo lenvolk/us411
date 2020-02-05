@@ -42,15 +42,15 @@
         }
     ],
     "output": [
-            {
-            "vm_win_sizes":
-             
-                {"value": "${var.vm_win_sizes [format(\"%s-%s-%s-%s\", var.env, var.os, var.vm_type, var.location)]}"}
-            },
-              {
-             "vm_lin_sizes":
-         
-                {"value": "${var.vm_lin_sizes [format(\"%s-%s-%s-%s\", var.env, var.os, var.vm_type, var.location)]}"}
-              }
-     ]
+        {
+            "vm_win_sizes": {
+                "value": "${lookup(var.vm_win_sizes, format(\"%s-%s-%s-%s\", var.env, var.os, var.vm_type, var.location), \"na\" ) }"
+            }
+        },
+        {
+            "vm_lin_sizes": {
+                "value": "${lookup(var.vm_lin_sizes, format(\"%s-%s-%s-%s\", var.env, var.os, var.vm_type, var.location), \"na\")}"
+            }
+        }
+    ]
 }
