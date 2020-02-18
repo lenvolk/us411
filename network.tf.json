@@ -11,8 +11,11 @@
                 "dev-sec"              : "10.1.0.0/16",
                 "uat-main"             : "10.2.0.0/16",
                 "uat-sec"              : "10.3.0.0/16",
+                "uat-service"          : "10.1.0.0/21",
+                "uat-akspool"          : "10.0.0.0/21",
                 "Production-main"      : "10.4.0.0/16",
-                "Production-sec"       : "10.4.0.0/16"
+                "Production-sec"       : "10.5.0.0/16"
+                 
                 }
             }
         }
