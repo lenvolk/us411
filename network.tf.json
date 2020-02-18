@@ -22,7 +22,7 @@
     ],
     "output": [
         {
-            "vm_win_sizes": 
+            "vnet_cidr_range": 
               {
                 "value": "${lookup(var.vnet_cidr_range, [format(\"%s-%s\", var.env, var.vnet_type), \"na\" )]}"
               }
